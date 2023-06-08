@@ -26,7 +26,7 @@ namespace ReadingTime6.Web.Models
         {
             Title = title;
             Author = author;
-            Cover = cover.Replace(".jpg",".png");
+            Cover = cover; //.Replace(".jpg",".png");
         }
 
     }
